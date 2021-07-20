@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="153" id="KGk-i7-Jjw" customClass="MovieShowTimeTableViewCell" customModule="Starter" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="153"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="153"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6dV-fn-O5g">
+                        <rect key="frame" x="15" y="15" width="290" height="123"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check Movie Showtimes" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GJu-VO-IDK">
+                                <rect key="frame" x="17" y="19" width="145" height="47"/>
+                                <fontDescription key="fontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8iH-DN-pde">
+                                <rect key="frame" x="17" y="86" width="78" height="27.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="78" id="9Kq-Bd-BKe"/>
+                                    <constraint firstAttribute="height" constant="27.5" id="KmK-n0-GTn"/>
+                                </constraints>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="SEE MORE">
+                                            <attributes>
+                                                <color key="NSColor" systemColor="systemYellowColor"/>
+                                                <font key="NSFont" metaFont="system"/>
+                                                <integer key="NSUnderline" value="1"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mappin.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="k3x-Wt-rSB">
+                                <rect key="frame" x="242" y="44" width="31" height="35"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="bC0-ma-0gJ"/>
+                                    <constraint firstAttribute="width" constant="31" id="gfq-7s-x74"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" name="secondary"/>
+                        <constraints>
+                            <constraint firstItem="8iH-DN-pde" firstAttribute="leading" secondItem="6dV-fn-O5g" secondAttribute="leading" constant="17" id="0zf-U2-9cU"/>
+                            <constraint firstItem="GJu-VO-IDK" firstAttribute="leading" secondItem="6dV-fn-O5g" secondAttribute="leading" constant="17" id="2hX-E9-10f"/>
+                            <constraint firstAttribute="bottom" secondItem="8iH-DN-pde" secondAttribute="bottom" constant="9.5" id="8n2-OD-aOL"/>
+                            <constraint firstItem="GJu-VO-IDK" firstAttribute="top" secondItem="6dV-fn-O5g" secondAttribute="top" constant="19" id="IkT-Bs-o3p"/>
+                            <constraint firstItem="GJu-VO-IDK" firstAttribute="width" secondItem="6dV-fn-O5g" secondAttribute="width" multiplier="0.5" id="hYX-xT-gAq"/>
+                            <constraint firstItem="k3x-Wt-rSB" firstAttribute="centerY" secondItem="6dV-fn-O5g" secondAttribute="centerY" id="ksz-VW-d6V"/>
+                            <constraint firstAttribute="trailing" secondItem="k3x-Wt-rSB" secondAttribute="trailing" constant="17" id="nFP-Sv-Fx5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="primary"/>
+                <constraints>
+                    <constraint firstItem="6dV-fn-O5g" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="S0A-nj-6ax"/>
+                    <constraint firstAttribute="trailing" secondItem="6dV-fn-O5g" secondAttribute="trailing" constant="15" id="YUt-HN-3wI"/>
+                    <constraint firstItem="6dV-fn-O5g" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="qrm-t8-cqO"/>
+                    <constraint firstAttribute="bottom" secondItem="6dV-fn-O5g" secondAttribute="bottom" constant="15" id="vv7-R7-s24"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="viewForBackground" destination="6dV-fn-O5g" id="wdG-3U-aJR"/>
+            </connections>
+            <point key="canvasLocation" x="18.840579710144929" y="129.57589285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="mappin.circle.fill" catalog="system" width="128" height="121"/>
+        <namedColor name="primary">
+            <color red="0.067000001668930054" green="0.067000001668930054" blue="0.16500000655651093" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="secondary">
+            <color red="0.067000001668930054" green="0.11800000071525574" blue="0.2669999897480011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

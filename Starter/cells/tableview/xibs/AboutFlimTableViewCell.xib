@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="307" id="KGk-i7-Jjw" customClass="AboutFlimTableViewCell" customModule="Starter" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="307"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="340" height="307"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FLm-ma-PTj">
+                        <rect key="frame" x="0.0" y="0.0" width="330" height="307"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="-5" translatesAutoresizingMaskIntoConstraints="NO" id="hEJ-eP-Wyi">
+                                <rect key="frame" x="15" y="38" width="300" height="141"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="0v2-ZF-xsl">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="39"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Original Title :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6vs-HQ-GIT">
+                                                <rect key="frame" x="0.0" y="0.0" width="90" height="39"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="90" id="RmD-Bo-SVE"/>
+                                                    <constraint firstAttribute="height" constant="39" id="src-df-xSe"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="13"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fantastic Beast and Where to Find Them" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kph-OX-1be">
+                                                <rect key="frame" x="112" y="0.0" width="188" height="39"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="39" id="1q9-qt-cCH"/>
+                                                    <constraint firstAttribute="width" constant="188" id="fd0-E2-iE6"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="13"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="ECg-4b-rkM">
+                                        <rect key="frame" x="0.0" y="34" width="300" height="39"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ST-eE-RmU">
+                                                <rect key="frame" x="0.0" y="0.0" width="90" height="39"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="39" id="YRB-3f-gtx"/>
+                                                    <constraint firstAttribute="width" constant="90" id="la8-Zq-Vru"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="13"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Family, Fantasy and Advanture" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lG8-r5-08l">
+                                                <rect key="frame" x="112" y="0.0" width="188" height="39"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="39" id="4Mc-gV-nBV"/>
+                                                    <constraint firstAttribute="width" constant="188" id="7Y4-fJ-kSC"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="13"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="671-U3-Ijb">
+                                        <rect key="frame" x="0.0" y="68" width="300" height="39"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Original Title :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uf0-eE-V7T">
+                                                <rect key="frame" x="0.0" y="0.0" width="90" height="39"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="39" id="7XE-PQ-CQ2"/>
+                                                    <constraint firstAttribute="width" constant="90" id="tih-kj-lr3"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="13"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fantastic Beast and Where to Find Them" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PbU-tg-yc4">
+                                                <rect key="frame" x="112" y="0.0" width="188" height="39"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="39" id="JbH-b9-2QP"/>
+                                                    <constraint firstAttribute="width" constant="188" id="njH-fh-bIf"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="13"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="omM-YH-ege">
+                                        <rect key="frame" x="0.0" y="102" width="300" height="39"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFS-Fr-ICv">
+                                                <rect key="frame" x="0.0" y="0.0" width="90" height="39"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="39" id="667-Xd-Qb8"/>
+                                                    <constraint firstAttribute="width" constant="90" id="fVb-3X-zUD"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="12"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Family, Fantasy and Advanture" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U8W-v5-O1i">
+                                                <rect key="frame" x="112" y="0.0" width="188" height="39"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="39" id="EJy-eQ-jcH"/>
+                                                    <constraint firstAttribute="width" constant="188" id="fzU-GA-2Fv"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="13"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Original Title :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efM-Hg-COU">
+                                <rect key="frame" x="15" y="175" width="86" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="86" id="8yn-mg-i8I"/>
+                                    <constraint firstAttribute="height" constant="39" id="XQ2-sT-saH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="12"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72T-6F-wuh">
+                                <rect key="frame" x="122" y="176" width="193" height="104"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" name="primary"/>
+                        <constraints>
+                            <constraint firstItem="efM-Hg-COU" firstAttribute="top" secondItem="hEJ-eP-Wyi" secondAttribute="bottom" constant="-4" id="3Tn-Sf-utO"/>
+                            <constraint firstAttribute="trailing" secondItem="hEJ-eP-Wyi" secondAttribute="trailing" constant="15" id="7ZG-5o-bsL"/>
+                            <constraint firstItem="hEJ-eP-Wyi" firstAttribute="top" secondItem="FLm-ma-PTj" secondAttribute="top" constant="38" id="8Ip-p7-XqJ"/>
+                            <constraint firstAttribute="bottom" secondItem="72T-6F-wuh" secondAttribute="bottom" constant="27" id="DCN-X4-pmE"/>
+                            <constraint firstAttribute="trailing" secondItem="72T-6F-wuh" secondAttribute="trailing" constant="15" id="POw-dY-Uka"/>
+                            <constraint firstItem="72T-6F-wuh" firstAttribute="top" secondItem="hEJ-eP-Wyi" secondAttribute="bottom" constant="-3" id="YIH-RK-aZG"/>
+                            <constraint firstItem="hEJ-eP-Wyi" firstAttribute="leading" secondItem="FLm-ma-PTj" secondAttribute="leading" constant="15" id="hE7-dP-cbl"/>
+                            <constraint firstItem="72T-6F-wuh" firstAttribute="leading" secondItem="efM-Hg-COU" secondAttribute="trailing" constant="21" id="sU4-eF-jyS"/>
+                            <constraint firstItem="efM-Hg-COU" firstAttribute="leading" secondItem="FLm-ma-PTj" secondAttribute="leading" constant="15" id="uKR-v9-2Bp"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT FLIM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyv-WG-f3u">
+                        <rect key="frame" x="15" y="15" width="78.5" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="zQa-8E-EGE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="13"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" name="primary"/>
+                <constraints>
+                    <constraint firstItem="FLm-ma-PTj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="5OQ-1o-1Hr"/>
+                    <constraint firstItem="hyv-WG-f3u" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="6c3-BQ-1xr"/>
+                    <constraint firstAttribute="trailing" secondItem="FLm-ma-PTj" secondAttribute="trailing" id="BNN-HX-eWu"/>
+                    <constraint firstItem="hyv-WG-f3u" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="Wt1-8Y-eA6"/>
+                    <constraint firstAttribute="bottom" secondItem="FLm-ma-PTj" secondAttribute="bottom" id="b8o-i5-kXM"/>
+                    <constraint firstItem="FLm-ma-PTj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="sk4-aU-xjl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="textViewDescription" destination="72T-6F-wuh" id="80j-4h-hHO"/>
+            </connections>
+            <point key="canvasLocation" x="33.333333333333336" y="100.78125"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="primary">
+            <color red="0.067000001668930054" green="0.067000001668930054" blue="0.16500000655651093" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>
